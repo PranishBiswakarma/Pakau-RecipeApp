@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecipeMobileApp.MainPage"
+             BackgroundColor="#f5f5f5">
+
+    <Grid RowDefinitions="Auto,*,Auto">
+        <!-- Header -->
+        <Grid Grid.Row="0" Padding="20,40,20,20" BackgroundColor="#1976D2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Label Text="Pakau"
+                   FontSize="32"
+                   FontAttributes="Bold"
+                   TextColor="White"
+                   VerticalOptions="Center"/>
+            <StackLayout Grid.Column="1" Orientation="Horizontal" Spacing="10" VerticalOptions="Center">
+                <Image Source="{Binding ProfileImageUrl}" WidthRequest="48" HeightRequest="48" Aspect="AspectFill" BackgroundColor="White" />
+                <Label Text="{Binding ProfileName}" FontSize="14" TextColor="White" VerticalOptions="Center"/>
+            </StackLayout>
+        </Grid>
+
+        <!-- Main Content -->
+        <StackLayout Grid.Row="1" Padding="20,10,20,0" Spacing="20">
+            <Picker x:Name="CuisinePicker" Title="Select Cuisine" SelectedIndexChanged="OnCuisineChanged">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Nepali</x:String>
+                        <x:String>Chinese</x:String>
+                        <x:String>Japanese</x:String>
+                        <x:String>Continental</x:String>
+                        <x:String>Italian</x:String>
+                        <x:String>Indian</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <CollectionView x:Name="CuisineCollection"
+                            ItemsSource="{Binding CuisineCategories}"
+                            SelectionMode="Single"
+                            SelectionChanged="OnCuisineImageSelected"
+                            HeightRequest="320"
+                            VerticalOptions="FillAndExpand">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="2"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Margin="10" HasShadow="True">
+                            <StackLayout>
+                                <Image Source="{Binding ImageUrl}" HeightRequest="120" Aspect="AspectFill"/>
+                                <Label Text="{Binding Name}" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"/>
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </Grid>
+</ContentPage>

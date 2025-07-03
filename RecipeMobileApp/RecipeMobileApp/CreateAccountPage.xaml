@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecipeMobileApp.CreateAccountPage"
+             BackgroundColor="#f5f5f5">
+    <StackLayout Padding="30" Spacing="20" VerticalOptions="Center">
+        <Label Text="Create Account" FontSize="28" FontAttributes="Bold" HorizontalOptions="Center" />
+        <Entry x:Name="NewUsernameEntry" Placeholder="Choose a Username" />
+        <Entry x:Name="NewPasswordEntry" Placeholder="Choose a Password" IsPassword="True" />
+        <Entry x:Name="PhoneEntry" Placeholder="Phone Number" Keyboard="Telephone"/>
+        <Button Text="Create Account" Clicked="OnCreateAccountClicked" BackgroundColor="#1976D2" TextColor="White"/>
+        <Button Text="Back to Login" Clicked="OnBackToLoginClicked" BackgroundColor="Transparent" TextColor="#1976D2"/>
+        <Label x:Name="AccountMessage" TextColor="Green" IsVisible="False"/>
+    </StackLayout>
+</ContentPage>
