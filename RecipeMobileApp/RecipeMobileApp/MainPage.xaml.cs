@@ -1,45 +1,62 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using Xamarin.Forms;
 using RecipeMobileApp.Models;
 using RecipeMobileApp.ViewModels;
+using RecipeMobileApp.Views;
 
 namespace RecipeMobileApp
 {
     public partial class MainPage : ContentPage
     {
-        private MainPageViewModel viewModel;
+        private RecipeViewModel viewModel;
 
         public MainPage()
         {
             InitializeComponent();
-            viewModel = new MainPageViewModel();
+            viewModel = new RecipeViewModel();
             BindingContext = viewModel;
-            CuisinePicker.SelectedIndex = -1;
+
+            // Safe: Only set ItemsSource if not null
+            if (viewModel.Cuisines != null)
+                CuisinePicker.ItemsSource = viewModel.Cuisines.ToList();
+
+            CuisinePicker.SelectedIndex = 0;
+            UpdateCategoryGrid();
         }
 
-        private async void OnCuisineChanged(object sender, EventArgs e)
+        private void CuisinePicker_SelectedIndexChanged(object sender, System.EventArgs e)
         {
-            var selectedCuisine = CuisinePicker.SelectedItem?.ToString();
-            if (!string.IsNullOrEmpty(selectedCuisine))
+            UpdateCategoryGrid();
+        }
+
+        private void UpdateCategoryGrid()
+        {
+            string selectedCuisine = CuisinePicker.SelectedItem as string;
+
+            if (!string.IsNullOrEmpty(selectedCuisine) && viewModel.CuisineCategories != null)
             {
-                var cuisine = viewModel.CuisineCategories.FirstOrDefault(c => c.Name == selectedCuisine);
-                if (cuisine != null)
-                {
-                    await Navigation.PushAsync(new RecipeListPage(cuisine.Name, cuisine.ImageUrl));
-                }
+                var filtered = viewModel.CuisineCategories
+                    .Where(c => c.Cuisine == selectedCuisine)
+                    .ToList();
+
+                CategoryGrid.ItemsSource = filtered;
+            }
+            else
+            {
+                CategoryGrid.ItemsSource = null;
             }
         }
 
-        private async void OnCuisineImageSelected(object sender, SelectionChangedEventArgs e)
+        private async void CategoryGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            var selectedCuisine = e.CurrentSelection.FirstOrDefault() as CuisineCategory;
-            if (selectedCuisine != null)
-            {
-                await Navigation.PushAsync(new RecipeListPage(selectedCuisine.Name, selectedCuisine.ImageUrl));
-                CuisineCollection.SelectedItem = null;
-            }
+            if (CuisinePicker.SelectedIndex == -1 || e.CurrentSelection.Count == 0)
+                return;
+
+            string selectedCuisine = CuisinePicker.SelectedItem as string;
+            var selectedCategory = (e.CurrentSelection[0] as CuisineCategory)?.Category;
+
+            await Navigation.PushAsync(new RecipeGridPage(viewModel, selectedCuisine, selectedCategory));
+            CategoryGrid.SelectedItem = null;
         }
     }
 }
-

@@ -1,41 +1,73 @@
 ﻿using System.Collections.ObjectModel;
-using System.ComponentModel;
 using System.Linq;
 using RecipeMobileApp.Models;
 
 namespace RecipeMobileApp.ViewModels
 {
-    public class RecipeViewModel : INotifyPropertyChanged
+    public class RecipeViewModel
     {
+        public ObservableCollection<string> Cuisines { get; set; }
+        public ObservableCollection<CuisineCategory> CuisineCategories { get; set; }
         public ObservableCollection<Recipe> AllRecipes { get; set; }
-        public ObservableCollection<Recipe> FilteredRecipes { get; set; }
-        public event PropertyChangedEventHandler PropertyChanged;
 
         public RecipeViewModel()
         {
+            Cuisines = new ObservableCollection<string>
+            {
+                "Nepali", "Indian", "Chinese", "Italian"
+            };
+
+            CuisineCategories = new ObservableCollection<CuisineCategory>
+            {
+                new CuisineCategory { Cuisine = "Nepali", Category = "Snacks", ImageUrl = "https://img.icons8.com/color/96/000000/french-fries.png" },
+                new CuisineCategory { Cuisine = "Nepali", Category = "Main Course", ImageUrl = "https://img.icons8.com/color/96/000000/steak.png" },
+                new CuisineCategory { Cuisine = "Nepali", Category = "Dessert", ImageUrl = "https://img.icons8.com/color/96/000000/cheesecake.png" },
+                new CuisineCategory { Cuisine = "Nepali", Category = "Soup", ImageUrl = "https://img.icons8.com/color/96/000000/soup-plate.png" },
+                // Add more for other cuisines as needed...
+            };
+
             AllRecipes = new ObservableCollection<Recipe>
             {
-                // Nepali
-                new Recipe { Name = "Dal Bhat", Type = "Veg", Cuisine = "Nepali", Ingredients = "Rice, lentils, vegetables", Steps = "Cook rice, cook dal, serve together.", ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/6/6e/Dal_bhat_tarkari.jpg" },
-                new Recipe { Name = "Paneer Curry", Type = "Veg", Cuisine = "Nepali", Ingredients = "Paneer, spices", Steps = "Cook paneer with spices.", ImageUrl = "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/05/paneer-curry-recipe.jpg" },
-                new Recipe { Name = "Chicken Momo", Type = "NonVeg", Cuisine = "Nepali", Ingredients = "Chicken, flour, spices", Steps = "Prepare filling, wrap, steam.", ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/4/4d/Momo_nepal.jpg" },
-                new Recipe { Name = "Fish Curry", Type = "NonVeg", Cuisine = "Nepali", Ingredients = "Fish, spices", Steps = "Cook fish with spices.", ImageUrl = "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/05/fish-curry-recipe.jpg" },
-                // Chinese
-                new Recipe { Name = "Veg Chow Mein", Type = "Veg", Cuisine = "Chinese", Ingredients = "Noodles, vegetables, soy sauce", Steps = "Boil noodles, stir-fry veggies, mix.", ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/2/2e/Chow_mein.jpg" },
-                new Recipe { Name = "Spring Rolls", Type = "Veg", Cuisine = "Chinese", Ingredients = "Cabbage, carrot, wrappers", Steps = "Wrap and fry.", ImageUrl = "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/05/spring-rolls-recipe.jpg" },
-                new Recipe { Name = "Chicken Manchurian", Type = "NonVeg", Cuisine = "Chinese", Ingredients = "Chicken, sauce", Steps = "Fry chicken, toss in sauce.", ImageUrl = "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/05/chicken-manchurian.jpg" },
-                new Recipe { Name = "Egg Fried Rice", Type = "NonVeg", Cuisine = "Chinese", Ingredients = "Egg, rice, veggies", Steps = "Cook rice, fry with egg and veggies.", ImageUrl = "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/05/egg-fried-rice.jpg" },
-                // Add more recipes for other cuisines as needed
+                // Nepali - Snacks - Veg
+                new Recipe { Id=1, Name="Veg Momo", Cuisine="Nepali", Category="Snacks", Type="Veg", ImageUrl="https://www.archanaskitchen.com/images/archanaskitchen/1-Author/shaheen_ali/Veg_Momos_Recipe-1.jpg" },
+                new Recipe { Id=2, Name="Paneer Pakora", Cuisine="Nepali", Category="Snacks", Type="Veg", ImageUrl="https://www.vegrecipesofindia.com/wp-content/uploads/2021/03/paneer-pakora-1.jpg" },
+                new Recipe { Id=3, Name="Samosa", Cuisine="Nepali", Category="Snacks", Type="Veg", ImageUrl="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/samosa-recipe.jpg" },
+                new Recipe { Id=4, Name="Aloo Chop", Cuisine="Nepali", Category="Snacks", Type="Veg", ImageUrl="https://www.nepalicookingcourse.com/wp-content/uploads/2016/01/aloo-chop.jpg" },
+
+                // Nepali - Snacks - Non-Veg
+                new Recipe { Id=5, Name="Chicken Momo", Cuisine="Nepali", Category="Snacks", Type="Non-Veg", ImageUrl="https://www.cookwithmanali.com/wp-content/uploads/2020/04/Chicken-Momos.jpg" },
+                new Recipe { Id=6, Name="Egg Roll", Cuisine="Nepali", Category="Snacks", Type="Non-Veg", ImageUrl="https://www.cookwithmanali.com/wp-content/uploads/2017/07/Egg-Roll-500x500.jpg" },
+                new Recipe { Id=7, Name="Chicken Pakora", Cuisine="Nepali", Category="Snacks", Type="Non-Veg", ImageUrl="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/chicken-pakora-recipe.jpg" },
+                new Recipe { Id=8, Name="Fish Fry", Cuisine="Nepali", Category="Snacks", Type="Non-Veg", ImageUrl="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/10/fish-fry-recipe.jpg" },
+
+                // Add more for other categories, types, and cuisines...
             };
-            FilteredRecipes = new ObservableCollection<Recipe>();
         }
 
-        public void FilterByCuisineAndType(string cuisine, string type)
+        public void AddRecipe(Recipe recipe)
         {
-            FilteredRecipes.Clear();
-            foreach (var recipe in AllRecipes.Where(r => r.Cuisine == cuisine && r.Type == type))
-                FilteredRecipes.Add(recipe);
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(FilteredRecipes)));
+            recipe.Id = AllRecipes.Any() ? AllRecipes.Max(r => r.Id) + 1 : 1;
+            AllRecipes.Add(recipe);
+        }
+
+        public void UpdateRecipe(Recipe recipe)
+        {
+            var old = AllRecipes.FirstOrDefault(r => r.Id == recipe.Id);
+            if (old != null)
+            {
+                old.Name = recipe.Name;
+                old.Cuisine = recipe.Cuisine;
+                old.Category = recipe.Category;
+                old.Type = recipe.Type;
+                old.Ingredients = recipe.Ingredients;
+                old.Steps = recipe.Steps;
+                old.ImageUrl = recipe.ImageUrl;
+            }
+        }
+
+        public void DeleteRecipe(Recipe recipe)
+        {
+            AllRecipes.Remove(recipe);
         }
     }
 }

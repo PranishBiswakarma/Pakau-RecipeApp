@@ -1,35 +1,51 @@
-﻿using RecipeMobileApp.Models;
-using RecipeMobileApp.ViewModels;
-using System.Linq;
+﻿using System;
 using Xamarin.Forms;
+using RecipeMobileApp.Models;
+using RecipeMobileApp.ViewModels;
 
-namespace RecipeMobileApp
+namespace RecipeMobileApp.Views
 {
     public partial class RecipeListPage : ContentPage
     {
         private RecipeViewModel viewModel;
-        private string currentCuisine;
+        private string cuisineFilter;
+        private string category;
 
-        public RecipeListPage(string cuisine, string cuisineImage)
+        public RecipeListPage(string cuisine, string category)
         {
             InitializeComponent();
-            viewModel = new RecipeViewModel();
+            cuisineFilter = cuisine;
+            this.category = category;
+            viewModel = new RecipeViewModel(); // FIXED: No argument
             BindingContext = viewModel;
-            currentCuisine = cuisine;
-            CuisineLabel.Text = cuisine;
-            CuisineImage.Source = cuisineImage;
-            VegSwitch.IsToggled = false; // Default to Veg
-            viewModel.FilterByCuisineAndType(currentCuisine, "Veg");
         }
 
-        private void OnVegSwitchToggled(object sender, ToggledEventArgs e)
+        private async void OnAddRecipeClicked(object sender, EventArgs e)
         {
-            viewModel.FilterByCuisineAndType(currentCuisine, e.Value ? "NonVeg" : "Veg");
+            await Navigation.PushAsync(new AddEditRecipePage(viewModel, cuisineFilter, category));
+        }
+
+        private async void OnEditRecipeClicked(object sender, EventArgs e)
+        {
+            var btn = sender as Button;
+            var recipe = btn?.CommandParameter as Recipe;
+            if (recipe != null)
+                await Navigation.PushAsync(new AddEditRecipePage(viewModel, cuisineFilter, category, recipe));
+        }
+
+        private void OnDeleteRecipeClicked(object sender, EventArgs e)
+        {
+            var btn = sender as Button;
+            var recipe = btn?.CommandParameter as Recipe;
+            if (recipe != null)
+            {
+                viewModel.DeleteRecipe(recipe);
+            }
         }
 
         private async void OnRecipeSelected(object sender, SelectionChangedEventArgs e)
         {
-            var selectedRecipe = e.CurrentSelection.FirstOrDefault() as Recipe;
+            var selectedRecipe = e.CurrentSelection[0] as Recipe;
             if (selectedRecipe != null)
             {
                 await Navigation.PushAsync(new RecipeDetailPage(selectedRecipe));

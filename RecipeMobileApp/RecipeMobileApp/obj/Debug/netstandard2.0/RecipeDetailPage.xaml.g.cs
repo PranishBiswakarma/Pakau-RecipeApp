@@ -8,9 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("RecipeMobileApp.RecipeDetailPage.xaml", "RecipeDetailPage.xaml", typeof(global::RecipeMobileApp.RecipeDetailPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("RecipeMobileApp.RecipeDetailPage.xaml", "RecipeDetailPage.xaml", typeof(global::RecipeMobileApp.Views.RecipeDetailPage))]
 
-namespace RecipeMobileApp {
+namespace RecipeMobileApp.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("RecipeDetailPage.xaml")]

@@ -1,7 +1,7 @@
 ﻿using Xamarin.Forms;
 using RecipeMobileApp.Models;
 
-namespace RecipeMobileApp
+namespace RecipeMobileApp.Views
 {
     public partial class RecipeDetailPage : ContentPage
     {
@@ -12,3 +12,4 @@ namespace RecipeMobileApp
         }
     }
 }
+

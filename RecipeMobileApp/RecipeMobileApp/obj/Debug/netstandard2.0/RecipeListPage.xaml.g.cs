@@ -8,22 +8,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("RecipeMobileApp.RecipeListPage.xaml", "RecipeListPage.xaml", typeof(global::RecipeMobileApp.RecipeListPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("RecipeMobileApp.RecipeListPage.xaml", "RecipeListPage.xaml", typeof(global::RecipeMobileApp.Views.RecipeListPage))]
 
-namespace RecipeMobileApp {
+namespace RecipeMobileApp.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("RecipeListPage.xaml")]
     public partial class RecipeListPage : global::Xamarin.Forms.ContentPage {
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Image CuisineImage;
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Label CuisineLabel;
-        
-        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.Switch VegSwitch;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.CollectionView RecipeCollection;
@@ -31,9 +22,6 @@ namespace RecipeMobileApp {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(RecipeListPage));
-            CuisineImage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Image>(this, "CuisineImage");
-            CuisineLabel = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Label>(this, "CuisineLabel");
-            VegSwitch = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Switch>(this, "VegSwitch");
             RecipeCollection = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.CollectionView>(this, "RecipeCollection");
         }
     }

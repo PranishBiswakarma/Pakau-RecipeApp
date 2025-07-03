@@ -1,13 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="RecipeMobileApp.AddOrEditRecipePage">
-    <StackLayout Padding="20" Spacing="15">
-        <Label Text="Recipe Details" FontSize="24" HorizontalOptions="Center"/>
-        <Entry x:Name="NameEntry" Placeholder="Name"/>
-        <Entry x:Name="IngredientsEntry" Placeholder="Ingredients"/>
-        <Entry x:Name="StepsEntry" Placeholder="Steps"/>
-        <Entry x:Name="ImageUrlEntry" Placeholder="Image URL"/>
-        <Button x:Name="SaveButton" Text="Save" Clicked="OnSaveClicked" BackgroundColor="#1976D2" TextColor="White" CornerRadius="10"/>
+             x:Class="RecipeMobileApp.Views.AddEditRecipePage"
+             Title="Add/Edit Recipe">
+    <StackLayout Padding="20" Spacing="10">
+        <Entry x:Name="NameEntry" Placeholder="Recipe Name" />
+        <Entry x:Name="CuisineEntry" Placeholder="Cuisine" />
+        <Entry x:Name="CategoryEntry" Placeholder="Category" />
+        <Entry x:Name="TypeEntry" Placeholder="Type (Veg/Non-Veg)" />
+        <Entry x:Name="IngredientsEntry" Placeholder="Ingredients" />
+        <Editor x:Name="StepsEditor" Placeholder="Steps" HeightRequest="100" />
+        <Entry x:Name="ImageUrlEntry" Placeholder="Image URL" />
+        <Button Text="Save" Clicked="OnSaveClicked" />
     </StackLayout>
 </ContentPage>

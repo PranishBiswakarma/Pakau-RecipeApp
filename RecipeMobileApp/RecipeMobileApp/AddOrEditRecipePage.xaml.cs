@@ -1,18 +1,15 @@
-﻿using RecipeMobileApp.Models;
+﻿using Xamarin.Forms;
+using RecipeMobileApp.Models;
 using RecipeMobileApp.ViewModels;
-using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
-namespace RecipeMobileApp
+namespace RecipeMobileApp.Views
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class AddOrEditRecipePage : ContentPage
+    public partial class AddEditRecipePage : ContentPage
     {
         private RecipeViewModel viewModel;
         private Recipe editingRecipe;
 
-        public AddOrEditRecipePage(RecipeViewModel vm, Recipe recipe = null)
+        public AddEditRecipePage(RecipeViewModel vm, string cuisine, string category, Recipe recipe = null, string type = null)
         {
             InitializeComponent();
             viewModel = vm;
@@ -21,45 +18,50 @@ namespace RecipeMobileApp
             if (editingRecipe != null)
             {
                 NameEntry.Text = editingRecipe.Name;
+                CuisineEntry.Text = editingRecipe.Cuisine;
+                CategoryEntry.Text = editingRecipe.Category;
+                TypeEntry.Text = editingRecipe.Type;
                 IngredientsEntry.Text = editingRecipe.Ingredients;
-                StepsEntry.Text = editingRecipe.Steps;
+                StepsEditor.Text = editingRecipe.Steps;
                 ImageUrlEntry.Text = editingRecipe.ImageUrl;
-                SaveButton.Text = "Update";
             }
             else
             {
-                SaveButton.Text = "Add";
+                CuisineEntry.Text = cuisine;
+                CategoryEntry.Text = category;
+                if (!string.IsNullOrEmpty(type))
+                    TypeEntry.Text = type;
             }
         }
 
-        private async void OnSaveClicked(object sender, EventArgs e)
+        private async void OnSaveClicked(object sender, System.EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(NameEntry.Text))
-            {
-                await DisplayAlert("Error", "Name is required.", "OK");
-                return;
-            }
+            if (string.IsNullOrWhiteSpace(NameEntry.Text)) return;
 
-            if (editingRecipe != null)
-            {
-                editingRecipe.Name = NameEntry.Text;
-                editingRecipe.Ingredients = IngredientsEntry.Text;
-                editingRecipe.Steps = StepsEntry.Text;
-                editingRecipe.ImageUrl = ImageUrlEntry.Text;
-            }
-            else
+            if (editingRecipe == null)
             {
                 var newRecipe = new Recipe
                 {
                     Name = NameEntry.Text,
+                    Cuisine = CuisineEntry.Text,
+                    Category = CategoryEntry.Text,
+                    Type = TypeEntry.Text,
                     Ingredients = IngredientsEntry.Text,
-                    Steps = StepsEntry.Text,
-                    ImageUrl = ImageUrlEntry.Text,
-                    Cuisine = "Nepali", // Default, you can extend this
-                    Type = "Veg"        // Default, you can extend this
+                    Steps = StepsEditor.Text,
+                    ImageUrl = ImageUrlEntry.Text
                 };
-                viewModel.AllRecipes.Add(newRecipe);
-                viewModel.FilteredRecipes.Add(newRecipe);
+                viewModel.AddRecipe(newRecipe);
+            }
+            else
+            {
+                editingRecipe.Name = NameEntry.Text;
+                editingRecipe.Cuisine = CuisineEntry.Text;
+                editingRecipe.Category = CategoryEntry.Text;
+                editingRecipe.Type = TypeEntry.Text;
+                editingRecipe.Ingredients = IngredientsEntry.Text;
+                editingRecipe.Steps = StepsEditor.Text;
+                editingRecipe.ImageUrl = ImageUrlEntry.Text;
+                viewModel.UpdateRecipe(editingRecipe);
             }
             await Navigation.PopAsync();
         }

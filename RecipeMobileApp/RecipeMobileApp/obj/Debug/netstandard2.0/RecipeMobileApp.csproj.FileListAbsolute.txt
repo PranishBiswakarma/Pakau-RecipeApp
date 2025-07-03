@@ -1,3 +1,7 @@
+D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp\bin\Debug\netstandard2.0\RecipeMobileApp.deps.json
+D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp\bin\Debug\netstandard2.0\RecipeMobileApp.dll
+D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp\bin\Debug\netstandard2.0\ref\RecipeMobileApp.dll
+D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp\bin\Debug\netstandard2.0\RecipeMobileApp.pdb
 D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp\obj\Debug\netstandard2.0\RecipeMobileApp.csproj.AssemblyReference.cache
 D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp\obj\Debug\netstandard2.0\RecipeMobileApp.GeneratedMSBuildEditorConfig.editorconfig
 D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp\obj\Debug\netstandard2.0\AddOrEditRecipePage.xaml.g.cs
@@ -10,11 +14,8 @@ D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp\o
 D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp\obj\Debug\netstandard2.0\RecipeMobileApp.AssemblyInfoInputs.cache
 D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp\obj\Debug\netstandard2.0\RecipeMobileApp.AssemblyInfo.cs
 D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp\obj\Debug\netstandard2.0\RecipeMobileApp.csproj.CoreCompileInputs.cache
+D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp\obj\Debug\netstandard2.0\RecipeMobileApp.sourcelink.json
+D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp\obj\Debug\netstandard2.0\XamlC.stamp
 D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp\obj\Debug\netstandard2.0\RecipeMobileApp.dll
 D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp\obj\Debug\netstandard2.0\refint\RecipeMobileApp.dll
 D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp\obj\Debug\netstandard2.0\RecipeMobileApp.pdb
-D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp\bin\Debug\netstandard2.0\RecipeMobileApp.deps.json
-D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp\bin\Debug\netstandard2.0\RecipeMobileApp.dll
-D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp\bin\Debug\netstandard2.0\ref\RecipeMobileApp.dll
-D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp\bin\Debug\netstandard2.0\RecipeMobileApp.pdb
-D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp\obj\Debug\netstandard2.0\XamlC.stamp

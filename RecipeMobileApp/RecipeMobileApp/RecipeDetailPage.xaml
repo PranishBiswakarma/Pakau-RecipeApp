@@ -1,16 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="RecipeMobileApp.RecipeDetailPage"
-             BackgroundColor="#f5f5f5">
-    <ScrollView>
-        <StackLayout Padding="20" Spacing="15">
-            <Image Source="{Binding ImageUrl}" HeightRequest="200" Aspect="AspectFill"/>
-            <Label Text="{Binding Name}" FontSize="28" FontAttributes="Bold"/>
-            <Label Text="Ingredients:" FontAttributes="Bold"/>
-            <Label Text="{Binding Ingredients}" />
-            <Label Text="Steps:" FontAttributes="Bold"/>
-            <Label Text="{Binding Steps}" />
-        </StackLayout>
-    </ScrollView>
-</ContentPage>
+             x:Class="RecipeMobileApp.Views.RecipeDetailPage"
+             Title="Recipe Details">
+        <ScrollView>
+            <StackLayout Padding="20" Spacing="10">
+                <Image Source="{Binding ImageUrl}" HeightRequest="200" Aspect="AspectFill"/>
+                <Label Text="{Binding Name}" FontSize="24" FontAttributes="Bold"/>
+                <Label Text="Cuisine:" FontAttributes="Bold"/>
+                <Label Text="{Binding Cuisine}" />
+                <Label Text="Ingredients:" FontAttributes="Bold"/>
+                <Label Text="{Binding Ingredients}" />
+                <Label Text="Steps:" FontAttributes="Bold"/>
+                <Label Text="{Binding Steps}" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
