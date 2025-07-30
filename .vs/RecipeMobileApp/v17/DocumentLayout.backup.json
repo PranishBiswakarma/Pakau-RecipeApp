@@ -1,0 +1,573 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\views\\profilepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\views\\profilepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\views\\registerpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\views\\registerpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\views\\loginpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\views\\loginpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\views\\recipeslistpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\views\\recipeslistpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\views\\recipedetailpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\views\\recipedetailpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\views\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\views\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\services\\dataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\viewmodels\\recipesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\viewmodels\\recipesviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\viewmodels\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\views\\favoritespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\views\\favoritespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\views\\addedituserrecipepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\views\\addedituserrecipepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\views\\favoritespage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\views\\favoritespage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\views\\addedituserrecipepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\views\\addedituserrecipepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\views\\recipeslistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\views\\recipeslistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\viewmodels\\addedituserrecipeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\viewmodels\\addedituserrecipeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\views\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\views\\recipedetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\views\\recipedetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\views\\myrecipespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\views\\myrecipespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\views\\myrecipespage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\views\\myrecipespage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\converters\\zerotoboolconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\converters\\zerotoboolconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\viewmodels\\authviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\viewmodels\\authviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\models\\categoryoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\models\\categoryoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\converters\\vegstatusconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\converters\\vegstatusconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\views\\userrecipedetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\views\\userrecipedetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\views\\userrecipedetailpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\views\\userrecipedetailpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\models\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\models\\favorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|d:\\college\\coursera\\new folder\\recipemobileapp\\recipemobileapp\\recipemobileapp\\views\\userrecipedetailpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C6610EE9-83C2-4F37-8516-6D9CCA74F6D2}|RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp.csproj|solutionrelative:recipemobileapp\\recipemobileapp\\views\\userrecipedetailpage.xaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RecipesListPage.xaml",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\RecipesListPage.xaml",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Views\\RecipesListPage.xaml",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\RecipesListPage.xaml",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Views\\RecipesListPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-14T01:10:27.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Views\\LoginPage.xaml",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Views\\LoginPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-14T01:29:03.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Views\\RegisterPage.xaml",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\RegisterPage.xaml",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Views\\RegisterPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-14T01:29:39.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Views\\ProfilePage.xaml",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\ProfilePage.xaml",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Views\\ProfilePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-14T01:31:23.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RecipeDetailPage.xaml",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\RecipeDetailPage.xaml",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Views\\RecipeDetailPage.xaml",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\RecipeDetailPage.xaml",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Views\\RecipeDetailPage.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwv0IAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-14T01:11:01.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Views\\MainPage.xaml",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\MainPage.xaml",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Views\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-14T01:30:23.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataService.cs",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Services\\DataService.cs",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Services\\DataService.cs",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Services\\DataService.cs",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Services\\DataService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAADwv1EAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T02:58:06.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RecipesViewModel.cs",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\ViewModels\\RecipesViewModel.cs",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\ViewModels\\RecipesViewModel.cs",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\ViewModels\\RecipesViewModel.cs",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\ViewModels\\RecipesViewModel.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T01:42:34.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\ViewModels\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\ViewModels\\ProfileViewModel.cs",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\ViewModels\\ProfileViewModel.cs",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\ViewModels\\ProfileViewModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T02:34:13.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FavoritesPage.xaml.cs",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\FavoritesPage.xaml.cs",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Views\\FavoritesPage.xaml.cs",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\FavoritesPage.xaml.cs",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Views\\FavoritesPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T01:30:30.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddEditUserRecipePage.xaml.cs",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\AddEditUserRecipePage.xaml.cs",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Views\\AddEditUserRecipePage.xaml.cs",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\AddEditUserRecipePage.xaml.cs",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Views\\AddEditUserRecipePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T01:12:35.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FavoritesPage.xaml",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\FavoritesPage.xaml",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Views\\FavoritesPage.xaml",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\FavoritesPage.xaml",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Views\\FavoritesPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-23T01:27:02.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddEditUserRecipePage.xaml",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\AddEditUserRecipePage.xaml",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Views\\AddEditUserRecipePage.xaml",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\AddEditUserRecipePage.xaml",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Views\\AddEditUserRecipePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-14T01:12:23.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProfilePage.xaml.cs",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\ProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Views\\ProfilePage.xaml.cs",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\ProfilePage.xaml.cs",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Views\\ProfilePage.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwE4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T01:31:41.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Models\\User.cs",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Models\\User.cs",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T01:19:48.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Views\\RegisterPage.xaml.cs",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Views\\RegisterPage.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T01:29:52.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RecipesListPage.xaml.cs",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\RecipesListPage.xaml.cs",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Views\\RecipesListPage.xaml.cs",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\RecipesListPage.xaml.cs",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Views\\RecipesListPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T01:10:44.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddEditUserRecipeViewModel.cs",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\ViewModels\\AddEditUserRecipeViewModel.cs",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\ViewModels\\AddEditUserRecipeViewModel.cs",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\ViewModels\\AddEditUserRecipeViewModel.cs",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\ViewModels\\AddEditUserRecipeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T01:13:51.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Views\\MainPage.xaml.cs",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\MainPage.xaml.cs",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Views\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T01:31:11.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\App.xaml.cs",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\App.xaml.cs",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T01:28:45.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\App.xaml",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\App.xaml",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\App.xaml",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-14T02:01:53.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RecipeDetailPage.xaml.cs",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\RecipeDetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Views\\RecipeDetailPage.xaml.cs",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\RecipeDetailPage.xaml.cs",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Views\\RecipeDetailPage.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T01:11:18.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MyRecipesPage.xaml.cs",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\MyRecipesPage.xaml.cs",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Views\\MyRecipesPage.xaml.cs",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\MyRecipesPage.xaml.cs",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Views\\MyRecipesPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T01:30:03.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MyRecipesPage.xaml",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\MyRecipesPage.xaml",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Views\\MyRecipesPage.xaml",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\MyRecipesPage.xaml",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Views\\MyRecipesPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-23T01:26:29.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Views\\LoginPage.xaml.cs",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T01:29:22.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ZeroToBoolConverter.cs",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Converters\\ZeroToBoolConverter.cs",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Converters\\ZeroToBoolConverter.cs",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Converters\\ZeroToBoolConverter.cs",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Converters\\ZeroToBoolConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T19:52:16.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AuthViewModel.cs",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\ViewModels\\AuthViewModel.cs",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\ViewModels\\AuthViewModel.cs",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\ViewModels\\AuthViewModel.cs",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\ViewModels\\AuthViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:54:08.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CategoryOption.cs",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Models\\CategoryOption.cs",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Models\\CategoryOption.cs",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Models\\CategoryOption.cs",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Models\\CategoryOption.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T01:59:19.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "VegStatusConverter.cs",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Converters\\VegStatusConverter.cs",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Converters\\VegStatusConverter.cs",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Converters\\VegStatusConverter.cs",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Converters\\VegStatusConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T18:59:39.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserRecipeDetailPage.xaml.cs",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\UserRecipeDetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Views\\UserRecipeDetailPage.xaml.cs",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\UserRecipeDetailPage.xaml.cs",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Views\\UserRecipeDetailPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T01:23:53.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserRecipeDetailPage.xaml",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\UserRecipeDetailPage.xaml",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Views\\UserRecipeDetailPage.xaml",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\UserRecipeDetailPage.xaml",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Views\\UserRecipeDetailPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-23T01:48:43.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Favorite.cs",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Models\\Favorite.cs",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Models\\Favorite.cs",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Models\\Favorite.cs",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Models\\Favorite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:53:02.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Models\\Recipe.cs",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Models\\Recipe.cs",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Models\\Recipe.cs",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Models\\Recipe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T00:52:01.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UserRecipeDetailPage.xaml",
+              "DocumentMoniker": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\UserRecipeDetailPage.xaml",
+              "RelativeDocumentMoniker": "RecipeMobileApp\\RecipeMobileApp\\Views\\UserRecipeDetailPage.xaml",
+              "ToolTip": "D:\\college\\coursera\\New folder\\RecipeMobileApp\\RecipeMobileApp\\RecipeMobileApp\\Views\\UserRecipeDetailPage.xaml",
+              "RelativeToolTip": "RecipeMobileApp\\RecipeMobileApp\\Views\\UserRecipeDetailPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-23T01:23:34.371Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

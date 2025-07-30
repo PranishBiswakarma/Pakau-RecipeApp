@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecipeMobileApp.Views.ProfilePage"
+             Title="My Profile">
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="20">
+
+            <!-- 🖼 Profile Image -->
+            <Image Source="{Binding User.ProfileImageUrl}" HeightRequest="100" WidthRequest="100" Aspect="AspectFill" HorizontalOptions="Center" />
+
+            <!-- ✏️ Editable Profile Fields -->
+            <Label Text="Username" />
+            <Entry Text="{Binding User.Username}" />
+
+            <Label Text="Name" />
+            <Entry Text="{Binding User.Name}" />
+
+            <Label Text="Bio" />
+            <Editor Text="{Binding User.Bio}" HeightRequest="80"/>
+
+            <Label Text="Hobbies" />
+            <Entry Text="{Binding User.Hobbies}" />
+
+            <!-- 💾 Save Button -->
+            <Button Text="Save Profile" BackgroundColor="#90ee90" CornerRadius="10" Clicked="OnSaveProfileClicked" />
+
+            <!-- ❤️ Favorites -->
+            <Label Text="Favorite Recipes" FontSize="22" FontAttributes="Bold" />
+            <CollectionView ItemsSource="{Binding FavoriteRecipes}" SelectionMode="Single" SelectionChanged="OnFavoriteTapped">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="8" HasShadow="True" CornerRadius="6" Margin="0,4">
+                            <StackLayout>
+                                <Label Text="{Binding Name}" FontSize="17" FontAttributes="Bold"/>
+                                <Label Text="{Binding Category}" FontSize="13" TextColor="Gray"/>
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- 👨‍🍳 My Recipes -->
+            <Label Text="My Recipes" FontSize="22" FontAttributes="Bold" Margin="0,20,0,0" />
+            <CollectionView ItemsSource="{Binding UserRecipes}" SelectionMode="Single" SelectionChanged="OnUserRecipeTapped">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="8" HasShadow="True" CornerRadius="6" Margin="0,4">
+                            <StackLayout>
+                                <Label Text="{Binding Name}" FontSize="17" FontAttributes="Bold"/>
+                                <Label Text="{Binding Category}" FontSize="13" TextColor="Gray"/>
+                                <StackLayout Orientation="Horizontal" Spacing="15">
+                                    <Button Text="Edit" CommandParameter="{Binding .}" Clicked="OnEditRecipe" />
+                                    <Button Text="Delete" CommandParameter="{Binding .}" Clicked="OnDeleteRecipe" BackgroundColor="LightCoral" TextColor="White"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecipeMobileApp.Views.UserRecipeDetailPage"
+             Title="My Recipe Detail">
+
+	<ScrollView>
+		<StackLayout Padding="20" Spacing="10">
+			<Image Source="{Binding ImageUrl}" HeightRequest="220" Aspect="AspectFill"/>
+			<Label Text="{Binding Name}" FontAttributes="Bold" FontSize="24" />
+			<Label Text="{Binding Category}" FontSize="18" TextColor="Gray"/>
+			<Label Text="{Binding IsVeg, StringFormat='Vegetarian: {0}'}" FontSize="18"/>
+			<Label Text="Ingredients:" FontAttributes="Bold" FontSize="18"/>
+			<Label Text="{Binding Ingredients}" LineBreakMode="WordWrap"/>
+			<Label Text="Steps:" FontAttributes="Bold" FontSize="18"/>
+			<Label Text="{Binding Steps}" LineBreakMode="WordWrap"/>
+		</StackLayout>
+	</ScrollView>
+</ContentPage>

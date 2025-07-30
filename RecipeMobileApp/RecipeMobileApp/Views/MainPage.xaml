@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecipeMobileApp.Views.MainPage"
+             Title="Recipe Categories"
+             BackgroundColor="White">
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="20">
+            <Label Text="Select a Cuisine"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center" />
+
+            <Grid ColumnSpacing="20" RowSpacing="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Nepalese -->
+                <Frame Grid.Row="0" Grid.Column="0" Padding="0" HasShadow="True" CornerRadius="10">
+                    <StackLayout>
+                        <Image Source="nepalfood.jpg" HeightRequest="120" Aspect="AspectFill"/>
+                        <Button Text="Nepalese" BackgroundColor="#f1f1f1"
+                                CommandParameter="Nepalese" Clicked="OnCategoryClicked"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Japanese -->
+                <Frame Grid.Row="0" Grid.Column="1" Padding="0" HasShadow="True" CornerRadius="10">
+                    <StackLayout>
+                        <Image Source="japanfood.jpg" HeightRequest="120" Aspect="AspectFill"/>
+                        <Button Text="Japanese" BackgroundColor="#f1f1f1"
+                                CommandParameter="Japanese" Clicked="OnCategoryClicked"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Chinese -->
+                <Frame Grid.Row="1" Grid.Column="0" Padding="0" HasShadow="True" CornerRadius="10">
+                    <StackLayout>
+                        <Image Source="chinafood.jpg" HeightRequest="120" Aspect="AspectFill"/>
+                        <Button Text="Chinese" BackgroundColor="#f1f1f1"
+                                CommandParameter="Chinese" Clicked="OnCategoryClicked"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Italian -->
+                <Frame Grid.Row="1" Grid.Column="1" Padding="0" HasShadow="True" CornerRadius="10">
+                    <StackLayout>
+                        <Image Source="italyfood.jpg" HeightRequest="120" Aspect="AspectFill"/>
+                        <Button Text="Italian" BackgroundColor="#f1f1f1"
+                                CommandParameter="Italian" Clicked="OnCategoryClicked"/>
+                    </StackLayout>
+                </Frame>
+            </Grid>
+            <!-- ✅ Add Recipe Button -->
+            <Button Text="➕ Add New Recipe"
+                    BackgroundColor="#87CEEB"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    CornerRadius="10"
+                    Clicked="OnAddRecipeClicked"
+                    Margin="0,30,0,0"/>
+
+            <Button Text="My Profile"
+                    BackgroundColor="#cccccc"
+                    Margin="0,20,0,0"
+                    Clicked="OnProfileClicked"
+                    CornerRadius="10"/>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

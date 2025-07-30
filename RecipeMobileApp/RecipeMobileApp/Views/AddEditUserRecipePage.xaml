@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecipeMobileApp.Views.AddEditUserRecipePage"
+             Title="Add/Edit Recipe">
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="14">
+
+            <Label Text="Recipe Name:" FontAttributes="Bold"/>
+            <Entry Text="{Binding Recipe.Name}" />
+
+            <Label Text="Category:" FontAttributes="Bold"/>
+            <Picker Title="Select Category"
+        ItemsSource="{Binding Categories}"
+        SelectedItem="{Binding Recipe.Category}" />
+
+
+            <Label Text="Ingredients (one per line):" FontAttributes="Bold"/>
+            <Editor Text="{Binding Recipe.Ingredients}" HeightRequest="80"/>
+
+            <Label Text="Steps (one per line):" FontAttributes="Bold"/>
+            <Editor Text="{Binding Recipe.Steps}" HeightRequest="100"/>
+
+            <Label Text="Image File Name:" FontAttributes="Bold"/>
+            <Entry Text="{Binding Recipe.ImageUrl}" />
+
+            <StackLayout Orientation="Horizontal" Spacing="15">
+                <Label Text="Vegetarian?" VerticalOptions="Center"/>
+                <Switch IsToggled="{Binding Recipe.IsVeg}" />
+            </StackLayout>
+
+            <Button Text="Save" Clicked="OnSaveClicked" BackgroundColor="LightGreen"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

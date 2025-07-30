@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RecipeMobileApp.Views.RegisterPage"
+             Title="Register">
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="14">
+
+            <Label Text="Username" />
+            <Entry x:Name="UsernameEntry" Placeholder="Enter username" />
+
+            <Label Text="Password" />
+            <Entry x:Name="PasswordEntry" IsPassword="True" />
+
+            <Label Text="Confirm Password" />
+            <Entry x:Name="ConfirmPasswordEntry" IsPassword="True" />
+
+            <!-- ✅ Extra Profile Fields -->
+            <Label Text="Full Name" />
+            <Entry x:Name="NameEntry" />
+
+            <Label Text="Bio" />
+            <Editor x:Name="BioEditor" Placeholder="Say something about yourself" HeightRequest="60"/>
+
+            <Label Text="Hobbies" />
+            <Entry x:Name="HobbiesEntry" Placeholder="e.g., Cooking, Reading" />
+
+            <!-- Optional custom image -->
+            <!--<Label Text="Profile Image File" />-->
+            <!--<Entry x:Name="ImageEntry" Placeholder="defaultprofile.png" />-->
+
+            <Label x:Name="ErrorLabel"
+                   IsVisible="False"
+                   TextColor="Red"
+                   FontAttributes="Italic"
+                   FontSize="14"
+                   HorizontalTextAlignment="Center" />
+
+            <Button Text="Register"
+                    Clicked="OnRegisterClicked"
+                    BackgroundColor="#90ee90"
+                    CornerRadius="10" />
+
+            <Button Text="Cancel"
+                    Clicked="OnCancelClicked"
+                    BackgroundColor="#eee"
+                    TextColor="Black"
+                    CornerRadius="10" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,5 +1,13 @@
 D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp.iOS\bin\iPhone\Debug\RecipeMobileApp.iOS.exe
 D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp.iOS\bin\iPhone\Debug\RecipeMobileApp.iOS.pdb
+D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp.iOS\bin\iPhone\Debug\SQLite-net.dll
+D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.core.dll
+D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp.iOS\bin\iPhone\Debug\SQLitePCLRaw.provider.sqlite3.dll
+D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp.iOS\bin\iPhone\Debug\System.Buffers.dll
+D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp.iOS\bin\iPhone\Debug\System.Data.SqlClient.dll
+D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp.iOS\bin\iPhone\Debug\System.Memory.dll
+D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp.iOS\bin\iPhone\Debug\System.Runtime.CompilerServices.Unsafe.dll
 D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp.iOS\bin\iPhone\Debug\Xamarin.Essentials.dll
 D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp.iOS\bin\iPhone\Debug\Xamarin.Essentials.pdb
 D:\college\coursera\New folder\RecipeMobileApp\RecipeMobileApp\RecipeMobileApp.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:RecipeMobileApp.ViewModels"
+             x:Class="RecipeMobileApp.Views.LoginPage"
+             Title="Login">
+
+    <ContentPage.BindingContext>
+        <viewmodels:AuthViewModel />
+    </ContentPage.BindingContext>
+
+    <StackLayout Padding="30" Spacing="20" VerticalOptions="CenterAndExpand">
+        <Label Text="Welcome to Pakau "
+               FontSize="26"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+
+        <Entry Placeholder="Username"
+               Text="{Binding Username}" />
+
+        <Entry Placeholder="Password"
+               IsPassword="True"
+               Text="{Binding Password}" />
+
+        <Button Text="Login"
+                Command="{Binding LoginCommand}" />
+
+        <Button Text="Register"
+                Clicked="OnRegisterClicked"
+                BackgroundColor="LightGray"
+                TextColor="Black"
+                CornerRadius="10" />
+
+        <Label x:Name="ErrorLabel"
+               IsVisible="False"
+               TextColor="Red"
+               FontSize="14"
+               HorizontalTextAlignment="Center"/>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="RecipeMobileApp.Views.RecipeDetailPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="{Binding Recipe.Name}">
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="16">
+
+            <!-- Recipe Image -->
+            <Image Source="{Binding Recipe.ImageUrl}"
+                   HeightRequest="200"
+                   Aspect="AspectFill"
+                   Margin="0,0,0,10" />
+
+            <!-- Recipe Name -->
+            <Label Text="{Binding Recipe.Name}"
+                   FontSize="26"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center" />
+
+            <!-- Category -->
+            <Label Text="{Binding Recipe.Category}"
+                   FontSize="16"
+                   TextColor="Gray"
+                   HorizontalOptions="Center" />
+
+            <!-- Veg Indicator -->
+            <Label Text="{Binding Recipe.IsVeg, StringFormat='Vegetarian: {0}'}"
+                   FontSize="14"
+                   TextColor="Green"
+                   HorizontalOptions="Center"
+                   IsVisible="{Binding Recipe.IsVeg}" />
+
+            <!-- Ingredients -->
+            <Label Text="Ingredients" FontSize="20" FontAttributes="Bold" />
+            <CollectionView ItemsSource="{Binding IngredientsList}" Margin="0,0,0,10">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Label Text="• {Binding .}" FontSize="15" />
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- Steps -->
+            <Label Text="Steps" FontSize="20" FontAttributes="Bold" />
+            <CollectionView ItemsSource="{Binding StepsList}" Margin="0,0,0,10">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Label Text="{Binding .}" FontSize="15" />
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- Favorite & Edit Buttons -->
+            <Button Text="{Binding FavButtonText}" Clicked="OnFavoriteClicked" BackgroundColor="#FFD700" TextColor="Black" CornerRadius="10" />
+            <Button Text="Edit Recipe" Clicked="OnEditClicked" IsVisible="{Binding CanEdit}" BackgroundColor="#cccccc" TextColor="Black" CornerRadius="10" />
+
+            <!-- 🔙 Back to Main Button -->
+            <Button Text="Back to Main Page" Clicked="OnBackToMainClicked" BackgroundColor="#DDDDDD" TextColor="Black" CornerRadius="10" Margin="0,10"/>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

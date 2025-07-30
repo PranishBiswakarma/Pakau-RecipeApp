@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:RecipeMobileApp.Converters"
+             x:Class="RecipeMobileApp.Views.RecipeListPage"
+             Title="{Binding SelectedCategory}">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:VegStatusConverter x:Key="VegStatusConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout Padding="10" Spacing="15">
+
+        <!-- Veg Status Label -->
+        <Label Text="{Binding ShowVeg, Converter={StaticResource VegStatusConverter}}"
+               FontAttributes="Bold"
+               FontSize="16"
+               HorizontalOptions="Center" />
+
+        <!-- Veg/Non-Veg Buttons -->
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="20">
+            <Button Text="Veg 🥦"
+            BackgroundColor="LightGreen"
+            Clicked="OnVegClicked" />
+            <Button Text="Non-Veg 🍗"
+            BackgroundColor="LightPink"
+            Clicked="OnNonVegClicked" />
+        </StackLayout>
+
+
+        <!-- Recipe List -->
+        <CollectionView ItemsSource="{Binding FilteredRecipes}" SelectionMode="Single" SelectionChanged="OnRecipeSelected">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="10" HasShadow="True" CornerRadius="10">
+                        <StackLayout>
+                            <Image Source="{Binding ImageUrl}" HeightRequest="120" Aspect="AspectFill" />
+                            <Label Text="{Binding Name}" FontSize="18" FontAttributes="Bold" />
+                            <Label Text="{Binding Category}" FontSize="14" TextColor="Gray" />
+                            <Label Text="No recipes found."
+       FontSize="16"
+       TextColor="Gray"
+       FontAttributes="Italic"
+       HorizontalOptions="Center"
+       Margin="10"
+       IsVisible="{Binding FilteredRecipes.Count, Converter={StaticResource ZeroToBoolConverter}}" />
+
+                        </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </StackLayout>
+</ContentPage>

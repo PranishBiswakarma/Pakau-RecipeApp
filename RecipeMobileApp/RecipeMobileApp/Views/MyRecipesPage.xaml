@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="RecipeMobileApp.Views.MyRecipesPage"
+    Title="My Recipe">
+
+    <StackLayout Padding="15">
+        <CollectionView x:Name="RecipeList">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Margin="10" BackgroundColor="White" CornerRadius="12">
+                        <StackLayout>
+                            <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="20"/>
+                            <Button Text="View" CommandParameter="{Binding .}" Clicked="OnView"/>
+                        </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>

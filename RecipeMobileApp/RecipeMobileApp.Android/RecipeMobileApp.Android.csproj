@@ -55,6 +55,12 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="sqlite-net-pcl">
+      <Version>1.9.172</Version>
+    </PackageReference>
+    <PackageReference Include="System.Data.SqlClient">
+      <Version>4.8.6</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>
@@ -85,7 +91,10 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\drawable\" />
+    <AndroidResource Include="Resources\drawable\ChinaFood.jpg" />
+    <AndroidResource Include="Resources\drawable\ItalyFood.jpg" />
+    <AndroidResource Include="Resources\drawable\JapanFood.jpg" />
+    <AndroidResource Include="Resources\drawable\NepalFood.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RecipeMobileApp\RecipeMobileApp.csproj">
@@ -93,5 +102,18 @@
       <Name>RecipeMobileApp</Name>
     </ProjectReference>
   </ItemGroup>
- <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\dalbhat.jpg" />
+    <AndroidResource Include="Resources\drawable\momo.jpg" />
+    <AndroidResource Include="Resources\drawable\pasta.jpg" />
+    <AndroidResource Include="Resources\drawable\pizza.jpg" />
+    <AndroidResource Include="Resources\drawable\rice.jpg" />
+    <AndroidResource Include="Resources\drawable\salmon_sushi.jpg" />
+    <AndroidResource Include="Resources\drawable\soup.jpg" />
+    <AndroidResource Include="Resources\drawable\vegsushi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\defaultimage.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

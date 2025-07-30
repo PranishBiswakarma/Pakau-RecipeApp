@@ -3,3 +3,5 @@ bin/
 obj/
 *.user
 *.suo
+RecipeMobileApp.Android/obj/
+RecipeMobileApp.Android/bin/
