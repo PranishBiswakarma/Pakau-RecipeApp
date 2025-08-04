@@ -11,12 +11,4 @@ Built with Xamarin.Forms as a portfolio project by Pranish Biswakarma and team.
 - User authentication and personalized profile with random profile image
 - Responsive, modern UI for mobile devices
 
-## Screenshots
 
-| Home | Recipe List | Recipe Detail | Profile |
-|------|-------------|---------------|---------|
-| ![Home](screenshots/home.png) | ![List](screenshots/list.png) | ![Detail](screenshots/detail.png) | ![Profile](screenshots/profile.png) |
-
-## How to Run
-
-1. Clone this repo:
